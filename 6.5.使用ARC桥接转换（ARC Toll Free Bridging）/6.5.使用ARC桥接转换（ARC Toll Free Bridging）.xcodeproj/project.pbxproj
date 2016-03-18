@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540630DE1C5E5E8300E17D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540630DD1C5E5E8300E17D1B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		540630D81C5E5E8300E17D1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		540630DA1C5E5E8300E17D1B /* 6.5.使用ARC桥接转换（ARC Toll Free Bridging） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.5.使用ARC桥接转换（ARC Toll Free Bridging）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540630DD1C5E5E8300E17D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540630D71C5E5E8300E17D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540630D11C5E5E8300E17D1B = {
+			isa = PBXGroup;
+			children = (
+				540630DC1C5E5E8300E17D1B /* 6.5.使用ARC桥接转换（ARC Toll Free Bridging） */,
+				540630DB1C5E5E8300E17D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540630DB1C5E5E8300E17D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540630DA1C5E5E8300E17D1B /* 6.5.使用ARC桥接转换（ARC Toll Free Bridging） */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540630DC1C5E5E8300E17D1B /* 6.5.使用ARC桥接转换（ARC Toll Free Bridging） */ = {
+			isa = PBXGroup;
+			children = (
+				540630DD1C5E5E8300E17D1B /* main.m */,
+			);
+			path = "6.5.使用ARC桥接转换（ARC Toll Free Bridging）";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540630D91C5E5E8300E17D1B /* 6.5.使用ARC桥接转换（ARC Toll Free Bridging） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540630E11C5E5E8300E17D1B /* Build configuration list for PBXNativeTarget "6.5.使用ARC桥接转换（ARC Toll Free Bridging）" */;
+			buildPhases = (
+				540630D61C5E5E8300E17D1B /* Sources */,
+				540630D71C5E5E8300E17D1B /* Frameworks */,
+				540630D81C5E5E8300E17D1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.5.使用ARC桥接转换（ARC Toll Free Bridging）";
+			productName = "6.5.使用ARC桥接转换（ARC Toll Free Bridging）";
+			productReference = 540630DA1C5E5E8300E17D1B /* 6.5.使用ARC桥接转换（ARC Toll Free Bridging） */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540630D21C5E5E8300E17D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dibadalu;
+				TargetAttributes = {
+					540630D91C5E5E8300E17D1B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 540630D51C5E5E8300E17D1B /* Build configuration list for PBXProject "6.5.使用ARC桥接转换（ARC Toll Free Bridging）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 540630D11C5E5E8300E17D1B;
+			productRefGroup = 540630DB1C5E5E8300E17D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540630D91C5E5E8300E17D1B /* 6.5.使用ARC桥接转换（ARC Toll Free Bridging） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540630D61C5E5E8300E17D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540630DE1C5E5E8300E17D1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		540630DF1C5E5E8300E17D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		540630E01C5E5E8300E17D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		540630E21C5E5E8300E17D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		540630E31C5E5E8300E17D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540630D51C5E5E8300E17D1B /* Build configuration list for PBXProject "6.5.使用ARC桥接转换（ARC Toll Free Bridging）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540630DF1C5E5E8300E17D1B /* Debug */,
+				540630E01C5E5E8300E17D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540630E11C5E5E8300E17D1B /* Build configuration list for PBXNativeTarget "6.5.使用ARC桥接转换（ARC Toll Free Bridging）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540630E21C5E5E8300E17D1B /* Debug */,
+				540630E31C5E5E8300E17D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540630D21C5E5E8300E17D1B /* Project object */;
+}

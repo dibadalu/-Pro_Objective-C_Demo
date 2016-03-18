@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		549C63141C871279003E88FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C63131C871279003E88FA /* main.m */; };
+		549C631C1C87129A003E88FA /* GreetingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C631B1C87129A003E88FA /* GreetingOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		549C630E1C871279003E88FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		549C63101C871279003E88FA /* 17.11.用一个并发操作实现并发编程 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17.11.用一个并发操作实现并发编程"; sourceTree = BUILT_PRODUCTS_DIR; };
+		549C63131C871279003E88FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		549C631A1C87129A003E88FA /* GreetingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetingOperation.h; sourceTree = "<group>"; };
+		549C631B1C87129A003E88FA /* GreetingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetingOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		549C630D1C871279003E88FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		549C63071C871279003E88FA = {
+			isa = PBXGroup;
+			children = (
+				549C63121C871279003E88FA /* 17.11.用一个并发操作实现并发编程 */,
+				549C63111C871279003E88FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		549C63111C871279003E88FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549C63101C871279003E88FA /* 17.11.用一个并发操作实现并发编程 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549C63121C871279003E88FA /* 17.11.用一个并发操作实现并发编程 */ = {
+			isa = PBXGroup;
+			children = (
+				549C63131C871279003E88FA /* main.m */,
+				549C631A1C87129A003E88FA /* GreetingOperation.h */,
+				549C631B1C87129A003E88FA /* GreetingOperation.m */,
+			);
+			name = "17.11.用一个并发操作实现并发编程";
+			path = "17.11.用操作和队列实现并发操作";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		549C630F1C871279003E88FA /* 17.11.用一个并发操作实现并发编程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549C63171C871279003E88FA /* Build configuration list for PBXNativeTarget "17.11.用一个并发操作实现并发编程" */;
+			buildPhases = (
+				549C630C1C871279003E88FA /* Sources */,
+				549C630D1C871279003E88FA /* Frameworks */,
+				549C630E1C871279003E88FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17.11.用一个并发操作实现并发编程";
+			productName = "17.11.用操作和队列实现并发操作";
+			productReference = 549C63101C871279003E88FA /* 17.11.用一个并发操作实现并发编程 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		549C63081C871279003E88FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dibadalu;
+				TargetAttributes = {
+					549C630F1C871279003E88FA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 549C630B1C871279003E88FA /* Build configuration list for PBXProject "17.11.用一个并发操作实现并发编程" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 549C63071C871279003E88FA;
+			productRefGroup = 549C63111C871279003E88FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				549C630F1C871279003E88FA /* 17.11.用一个并发操作实现并发编程 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		549C630C1C871279003E88FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549C631C1C87129A003E88FA /* GreetingOperation.m in Sources */,
+				549C63141C871279003E88FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		549C63151C871279003E88FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		549C63161C871279003E88FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		549C63181C871279003E88FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "17.11.用一个并发操作实现并发编程";
+			};
+			name = Debug;
+		};
+		549C63191C871279003E88FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "17.11.用一个并发操作实现并发编程";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549C630B1C871279003E88FA /* Build configuration list for PBXProject "17.11.用一个并发操作实现并发编程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549C63151C871279003E88FA /* Debug */,
+				549C63161C871279003E88FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549C63171C871279003E88FA /* Build configuration list for PBXNativeTarget "17.11.用一个并发操作实现并发编程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549C63181C871279003E88FA /* Debug */,
+				549C63191C871279003E88FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 549C63081C871279003E88FA /* Project object */;
+}
